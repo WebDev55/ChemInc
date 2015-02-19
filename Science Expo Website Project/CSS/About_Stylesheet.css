@@ -1,0 +1,56 @@
+body {
+  background-color: #e7e7e7;
+  max-width: 100%;
+  max-height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.Nav_Bar {
+    background-color: #161616;
+    border-color: black;
+    border-top-width: thick;
+    border-left-width: thick;
+    border-right-width: thick;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-position: top-center;
+}
+
+.Nav_Bar a {
+  display: inline-block;
+  padding-left: 175px;
+  padding-right: 100px;
+  color: white;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+.Nav_Bar a:hover {
+  color: #41A4EA;
+}
+
+.Jumbotron h1 {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.Jumbotron p {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.Jumbotron h1:first-child {
+  position: relative;
+  top: 50px;
+}
+
+.Jumbotron p:first-child {
+  position: relative;
+  top: 10px;
+}
+
+.Jumbotron p:nth-child(2) {
+  position: relative;
+  top: 75px;
+}

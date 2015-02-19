@@ -1,0 +1,723 @@
+body {
+  background-color: #e7e7e7;
+  max-width: 100%;
+  max-height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.Nav_Bar {
+    background-color: #161616;
+    border-color: black;
+    border-top-width: thick;
+    border-left-width: thick;
+    border-right-width: thick;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-position: top-center;
+}
+
+.Nav_Bar a {
+  display: inline-block;
+  padding-left: 175px;
+  padding-right: 100px;
+  color: white;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+.Nav_Bar a:hover {
+  color: #41A4EA;
+}
+
+.Jumbotron h2 {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-decoration: bold;
+}
+
+.Jumbotron p {
+  color: black;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-decoration: none;
+  font-size: 14pt;
+}
+
+.Jumbotron .Content_Blocks .Alkaline_Earth {
+  display: inline-block;
+  position: absolute;
+  top: 89px;
+  left: 30px;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 1%;
+  height: 300px;
+  width: 398px;
+  border-left: thin solid #C4C3C3;
+  border-right: thin solid #C4C3C3;
+  border-bottom: thin solid #8d8d8d;
+}
+
+.Jumbotron .Content_Blocks .Alkaline_Earth #Image_1 {
+  display: inline-block;
+  position: relative;
+  right: 10px;
+  bottom: 10px;
+  width: 418px;
+  height: 100px;
+  background-image: url("http://thesmashable.com/wp-content/uploads/2014/05/brown-beige-unique-polygon-free-vector-backgrounds-psd.jpg");
+  background-size: 100%, 100%;
+  background-repeat: repeat-x;
+  border-top-left-radius: 1%;
+  border-top-right-radius: 1%;
+}
+
+.Jumbotron .Content_Blocks .Alkaline_Earth h2 {
+  position: relative;
+  bottom: 125px;
+  left: 130px;
+  color: black;
+}
+
+.Jumbotron .Content_Blocks .Alkaline_Earth p {
+  position: relative;
+  left: 25px;
+  bottom: 25px;
+}
+
+.Jumbotron .Content_Blocks .Alkaline_Earth a {
+  position: relative;
+  top: 25px;
+  left: 106px;
+  background-color: #41A4EA;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 15%;
+  color: black;
+  text-decoration: none;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 15pt;
+}
+
+.Jumbotron .Content_Blocks .Alkaline_Earth a:hover {
+  background-color: #161616;
+  color: #41A4EA;
+}
+
+.Jumbotron .Content_Blocks .Alkali_Metals {
+  display: inline-block;
+  position: absolute;
+  top: 89px;
+  left: 471px;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 1%;
+  height: 300px;
+  width: 398px;
+  border-left: thin solid #C4C3C3;
+  border-right: thin solid #C4C3C3;
+  border-bottom: thin solid #8d8d8d;
+}
+
+.Jumbotron .Content_Blocks .Alkali_Metals #Image_2 {
+  display: inline-block;
+  position: relative;
+  bottom: 10px;
+  right: 10px;
+  width: 418px;
+  height: 100px;
+  background-image: url("http://www.androidguys.com/wp-content/uploads/2013/07/Android-1440x12805.jpg");
+  background-size: 100%, 100%;
+  background-repeat: repeat-x;
+  border-top-left-radius: 1%;
+  border-top-right-radius: 1%;
+}
+
+.Jumbotron .Content_Blocks .Alkali_Metals h2 {
+  position: relative;
+  left: 90px;
+  bottom: 125px;
+  color: black;
+}
+
+.Jumbotron .Content_Blocks .Alkali_Metals p {
+  position: relative;
+  left: 10px;
+  bottom: 25px;
+}
+
+.Jumbotron .Content_Blocks .Alkali_Metals a {
+  position: relative;
+  top: 25px;
+  left: 113px;
+  background-color: #41A4EA;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 15%;
+  color: black;
+  text-decoration: none;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 15pt;
+}
+
+.Jumbotron .Content_Blocks .Alkali_Metals a:hover{
+  background-color: #161616;
+  color: #41A4EA;
+}
+
+.Jumbotron .Content_Blocks .Halogens {
+  display: inline-block;
+  position: absolute;
+  left: 915px;
+  bottom: 233px;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 1%;
+  height: 300px;
+  width: 398px;
+  border-left: thin solid #C4C3C3;
+  border-right: thin solid #C4C3C3;
+  border-bottom: thin solid #8d8d8d;
+}
+
+.Jumbotron .Content_Blocks .Halogens #Image_3 {
+  display: inline-block;
+  position: relative;
+  right: 10px;
+  bottom: 10px;
+  width: 418px;
+  height: 100px;
+  background-image: url("https://m1.behance.net/rendition/modules/42718089/disp/3d5c7912ce4f7578906764a89493cf90.png");
+  background-size: 100%, 100%;
+  background-repeat: repeat-x;
+  border-top-left-radius: 1%;
+  border-top-right-radius: 1%;
+}
+
+.Jumbotron .Content_Blocks .Halogens h2 {
+  position: relative;
+  left: 140px;
+  bottom: 125px;
+  color: black;
+}
+
+.Jumbotron .Content_Blocks .Halogens p {
+  position: relative;
+  left: 3px;
+  bottom: 25px;
+}
+
+.Jumbotron .Content_Blocks .Halogens a {
+  position: relative;
+  top: 25px;
+  left: 113px;
+  background-color: #41A4EA;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 15%;
+  color: black;
+  text-decoration: none;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 15pt;
+}
+
+.Jumbotron .Content_Blocks .Halogens a:hover {
+  background-color: #161616;
+  color: #41A4EA;
+}
+
+.Jumbotron .Content_Blocks .Metalloids {
+  display: inline-block;
+  position: absolute;
+  top: 441px;
+  left: 30px;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 1%;
+  height: 300px;
+  width: 398px;
+  border-left: thin solid #C4C3C3;
+  border-right: thin solid #C4C3C3;
+  border-bottom: thin solid #8d8d8d;
+}
+
+.Jumbotron .Content_Blocks .Metalloids #Image_4 {
+  display: inline-block;
+  position: relative;
+  right: 10px;
+  bottom: 10px;
+  width: 418px;
+  height: 100px;
+  background-image: url("http://cdn.superbwallpapers.com/wallpapers/vector/blue-polygon-28641-1920x1080.jpg");
+  background-repeat: repeat-x;
+  background-size: 100%, 100%;
+  border-top-left-radius: 1%;
+  border-top-right-radius: 1%;
+}
+
+.Jumbotron .Content_Blocks .Metalloids h2 {
+  position: relative;
+  left: 140px;
+  bottom: 125px;
+  color: black;
+}
+
+.Jumbotron .Content_Blocks .Metalloids p {
+  position: relative;
+  right: 2px;
+  bottom: 25px;
+  font-size: 13.97pt;
+}
+
+.Jumbotron .Content_Blocks .Metalloids a {
+  position: relative;
+  top: 25px;
+  left: 113px;
+  background-color: #41A4EA;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 15%;
+  color: black;
+  text-decoration: none;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 15pt;
+}
+
+.Jumbotron .Content_Blocks .Metalloids a:hover {
+  background-color: #161616;
+  color: #41A4EA;
+}
+
+.Jumbotron .Content_Blocks .Other_Metals {
+  display: inline-block;
+  position: absolute;
+  top: 441px;
+  left: 471px;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 1%;
+  height: 300px;
+  width: 398px;
+  border-left: thin solid #C4C3C3;
+  border-right: thin solid #C4C3C3;
+  border-bottom: thin solid #8d8d8d;
+}
+
+.Jumbotron .Content_Blocks .Other_Metals #Image_5 {
+  display: inline-block;
+  position: relative;
+  right: 10px;
+  bottom: 10px;
+  width: 418px;
+  height: 100px;
+  background-image: url("http://www.texturezine.com/wp-content/uploads/2014/05/orange-polygon.jpg");
+  background-repeat: repeat-x;
+  background-size: 100%, 100%;
+  border-top-left-radius: 1%;
+  border-top-right-radius: 1%;
+}
+
+.Jumbotron .Content_Blocks .Other_Metals h2 {
+  position: relative;
+  left: 130px;
+  bottom: 125px;
+  color: black;
+}
+
+.Jumbotron .Content_Blocks .Other_Metals p {
+  position: relative;
+  left: 50px;
+  bottom: 25px;
+}
+
+.Jumbotron .Content_Blocks .Other_Metals a {
+  position: relative;
+  top: 25px;
+  left: 115px;
+  background-color: #41A4EA;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 15%;
+  color: black;
+  text-decoration: none;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 15pt;
+}
+
+.Jumbotron .Content_Blocks .Other_Metals a:hover {
+  background-color: #161616;
+  color: #41A4EA;
+}
+
+.Jumbotron .Content_Blocks .Transition_Metals {
+  display: inline-block;
+  position: absolute;
+  left: 915px;
+  top: 441px;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 1%;
+  height: 300px;
+  width: 398px;
+  border-left: thin solid #C4C3C3;
+  border-right: thin solid #C4C3C3;
+  border-bottom: thin solid #8d8d8d;
+}
+
+.Jumbotron .Content_Blocks .Transition_Metals #Image_6 {
+  display: inline-block;
+  position: relative;
+  right: 10px;
+  bottom: 10px;
+  width: 418px;
+  height: 100px;
+  background-image: url("http://www.texturezine.com/wp-content/uploads/2014/05/purple-polygon.jpg");
+  background-repeat: repeat-x;
+  background-size: 100%, 100%;
+  border-top-left-radius: 1%;
+  border-top-right-radius: 1%;
+}
+
+.Jumbotron .Content_Blocks .Transition_Metals h2 {
+  position: relative;
+  left: 105px;
+  bottom: 125px;
+  color: black;
+}
+
+.Jumbotron .Content_Blocks .Transition_Metals p {
+  position: relative;
+  left: 125px;
+  bottom: 25px;
+}
+
+.Jumbotron .Content_Blocks .Transition_Metals a {
+  position: relative;
+  top: 25px;
+  left: 115px;
+  background-color: #41A4EA;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 15%;
+  color: black;
+  text-decoration: none;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 15pt;
+}
+
+.Jumbotron .Content_Blocks .Transition_Metals a:hover {
+  background-color: #161616;
+  color: #41A4EA;
+}
+
+.Jumbotron .Content_Blocks .Noble_Gases {
+  display: inline-block;
+  position: absolute;
+  top: 794px;
+  left: 30px;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 1%;
+  height: 300px;
+  width: 398px;
+  border-left: thin solid #C4C3C3;
+  border-right: thin solid #C4C3C3;
+  border-bottom: thin solid #8d8d8d;
+}
+
+.Jumbotron .Content_Blocks .Noble_Gases #Image_7 {
+  display: inline-block;
+  position: relative;
+  right: 10px;
+  bottom: 10px;
+  width: 418px;
+  height: 100px;
+  background-image: url("http://www.titanui.com/wp-content/uploads/2015/01/29/Bright-Yellow-Polygon-Background-Vector.jpg");
+  background-repeat: repeat-x;
+  background-size: 100%, 100%;
+  border-top-left-radius: 1%;
+  border-top-right-radius: 1%;
+}
+
+.Jumbotron .Content_Blocks .Noble_Gases h2 {
+  position: relative;
+  left: 105px;
+  bottom: 125px;
+  color: black;
+}
+
+.Jumbotron .Content_Blocks .Noble_Gases p {
+  position: relative;
+  left: 80px;
+  bottom: 25px;
+}
+
+.Jumbotron .Content_Blocks .Noble_Gases a {
+  position: relative;
+  top: 25px;
+  left: 115px;
+  background-color: #41A4EA;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 15%;
+  color: black;
+  text-decoration: none;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 15pt;
+}
+
+.Jumbotron .Content_Blocks .Noble_Gases a:hover {
+  background-color: #161616;
+  color: #41A4EA;
+}
+
+.Jumbotron .Content_Blocks .Nonmetals {
+  display: inline-block;
+  position: absolute;
+  top: 794px;
+  left: 471px;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 1%;
+  height: 300px;
+  width: 398px;
+  border-left: thin solid #C4C3C3;
+  border-right: thin solid #C4C3C3;
+  border-bottom: thin solid #8d8d8d;
+}
+
+.Jumbotron .Content_Blocks .Nonmetals #Image_8 {
+  display: inline-block;
+  position: relative;
+  right: 10px;
+  bottom: 10px;
+  width: 418px;
+  height: 100px;
+  background-image: url("http://www.hdwallpaperpc.com/preview/Polygon_Art_Red_88967/resolution_1920x1080");
+  background-repeat: repeat-x;
+  background-size: 100%, 100%;
+  border-top-left-radius: 1%;
+  border-top-right-radius: 1%;
+}
+
+.Jumbotron .Content_Blocks .Nonmetals h2 {
+  position: relative;
+  left: 135px;
+  bottom: 125px;
+  color: black;
+}
+
+.Jumbotron .Content_Blocks .Nonmetals p {
+  position: relative;
+  left: 90px;
+  bottom: 25px;
+}
+
+.Jumbotron .Content_Blocks .Nonmetals a {
+  position: relative;
+  top: 25px;
+  left: 115px;
+  background-color: #41A4EA;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 15%;
+  color: black;
+  text-decoration: none;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 15pt;
+}
+
+.Jumbotron .Content_Blocks .Nonmetals a:hover {
+  background-color: #161616;
+  color: #41A4EA;
+}
+
+.Jumbotron .Content_Blocks .More {
+  display: inline-block;
+  position: absolute;
+  left: 915px;
+  top: 794px;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 1%;
+  height: 300px;
+  width: 398px;
+  border-left: thin solid #C4C3C3;
+  border-right: thin solid #C4C3C3;
+  border-bottom: thin solid #8d8d8d;
+}
+
+.Jumbotron .Content_Blocks .More #Image_9 {
+  display: inline-block;
+  position: relative;
+  right: 10px;
+  bottom: 10px;
+  width: 418px;
+  height: 100px;
+  background-image: url("http://static.vecteezy.com/system/resources/previews/000/080/371/original/black-polygon.jpg");
+  background-repeat: repeat-x;
+  background-size: 100%, 100%;
+  border-top-left-radius: 1%;
+  border-top-right-radius: 1%;
+}
+
+.Jumbotron .Content_Blocks .More h2 {
+  position: relative;
+  left: 130px;
+  bottom: 125px;
+  color: white;
+}
+
+.Jumbotron .Content_Blocks .More p {
+  position: relative;
+  left: 45px;
+  bottom: 25px;
+  font-size: 13.69pt;
+}
+
+.Jumbotron .Content_Blocks .More a {
+  position: relative;
+  top: 25px;
+  left: 120px;
+  background-color: #41A4EA;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 15%;
+  color: black;
+  text-decoration: none;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 15pt;
+}
+
+.Jumbotron .Content_Blocks .More a:hover {
+  background-color: #161616;
+  color: #41A4EA;
+}
+
+.Supporting_Content {
+  display: inline-block;
+  position: relative;
+  top: 1125px;
+  left: 425px;
+}
+
+.Supporting_Content h2 {
+  position: relative;
+  right: 10px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.Supporting_Content p {
+  position: relative;
+  right: 125px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.Supporting_Content a {
+  position: relative;
+  top: 25px;
+  left: 175px;
+  background-color: #41A4EA;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 15%;
+  color: black;
+  text-decoration: none;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 15pt;
+}
+
+.Supporting_Content a:hover {
+  background-color: #161616;
+  color: #41A4EA;
+}
+
+.Copyright_Info {
+  background-color: #161616;
+  display: inline-block;
+  position: absolute;
+  border-top-width: thick;
+  border-bottom-width: thick;
+  left: 0px;
+  right: 0px;
+  top: 1350px;
+}
+
+.Copyright_Info p {
+  color: white;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 9pt;
+}
+
+.Copyright_Info p:nth-child(1) {
+  position: relative;
+  left: 600px;
+}
+
+.Copyright_Info p:nth-child(2) {
+  position: relative;
+  left: 525px;
+}
+
+.Copyright_Info p:nth-child(3) {
+  position: relative;
+  left: 615px;
+}

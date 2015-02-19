@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="CSS/Learn_Lanthanides_Stylesheet.css"/>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="Scripts/Learn_Questions_Script.js"></script>
+    <title>Learn: Alkali Earth</title>
+  </head>
+  <body>
+    <div class = "Nav_Bar">
+      <a href="index.html"><h3>Home</h3></a>
+      <a href="learn.html"><h3>Learn</h3></a>
+      <a href="test.html"><h3>Test</h3></a>
+      <a href="about.html"><h3>About</h3></a>
+    </div>
+    <div class = "Jumbotron">
+          <div class = "Family_Properties_Info" id = "family_properties_info">
+            <h1>Watch a video on the Lanthanides family.</h1>
+            <video src="Assets/Videos/Rare Earth Elements.mp4" controls type="video/mp4" height="400" width="720"></video>
+            <h1>Lanthanides: Family Properities</h1>
+            <p>All elements within this family share several properies. Here are the most common: </p>
+            <ul>
+              <li>The Lanthanides family contains 15 elements.</li>
+              <li>These elements have oxidation numbers of +3.</li>
+              <li>Also called the "Rare Earth Metals".</li>
+              <li>Used very widely in technology - most devices today contain a hint of Rare Earth Metals.</li>
+              <li>Although they are called the Rare Earth Metals, they are actually very abundunt, they are just hard to extract.</li>
+            </ul>
+          </div>
+          <div class = "Family_Properties_Questions" id = "family_properties_questions">
+            <form>
+              <p>How many elements are in this family?</p>
+              <textarea wrap="off" placeholder="Type Here" name="FP_Q1"></textarea>
+              <p>All of these elements have oxidation numbers of +3.</p>
+              <input type="radio" name="FP_Q2" value="True" checked><span id="FP_Q2_Correct" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;
+              margin-bottom: 10px;">True</span><br>
+              <input type="radio" name="FP_Q2" value="False"><span id="FP_Q2_Wrong" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;">False</span><br>
+              <p>These elements are also called the _________.</p>
+              <textarea wrap="off" placeholder="Type Here" name="FP_Q3"></textarea>
+              <p>Select all the elements are in not in this family.</p>
+              <input type="checkbox" name="FP_Q4" value="Bismuth"><span class = "Test" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;">Hydrogen</span><br>
+              <input type="checkbox" name="FP_Q4" value="Hydrogen"><span class = "Test" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;">Carbon
+              </span><br>
+              <input type="checkbox" name="FP_Q4" value="Tellurium"><span class = "Test" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;">Nitrogen</span><br>
+              <input type="checkbox" name="FP_Q4" value="Technetium"><span class = "Test" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;">Oxygen</span><br>
+              <input type="checkbox" name="FP_Q4" value="Thallium"><span class = "Test" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;">Phosphorus</span><br>
+              <input type="checkbox" name="FP_Q4" value="Lead"><span class = "Test" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;">Sulfur</span><br>
+              <input type="checkbox" name="FP_Q4" value="Some"><span class = "Test" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;">Selenium</span><br>
+              <p>What are the Lanthanides widely used in?</p>
+              <textarea wrap="off" placeholder="Type Here" name="FP_Q5"></textarea>
+              <div id = "Submit">
+                <a href="#">Check Answers</a>
+              </div>
+            <script type="text/javascript">
+                $(document).ready(function() {
+                  $("#Submit").click(function() {
+                      checkText("FP_Q1", "15");
+                      checkanswerRadio(["FP_Q2", "FP_Q2"], [0, 1], 0, ["FP_Q2_Correct", "FP_Q2_Wrong"]);
+                      checkText("FP_Q3", "Rare Earth Metals");
+                      checkanswerCheckbox("FP_Q4", ["Bismuth", "Hydrogen", "Tellurium", "Thallium", "Lead", "Some"]);
+                      checkText("FP_Q5", "Technology");
+                  })
+                })
+              </script>
+          </div>
+        <div class = "Family_Elements_Info" id = "family_elements_info">
+          <div id = "Elements_Info_Video">
+            <h1>Watch a video on the elements in the Lanthanides family.</h1>
+            <video src="#" controls type="video/mp4" height="360" width="720"></video>
+          </div>
+          <div id = "Elements_Info_Text">
+            <h1>Element Summary</h1>
+            <p>Here is a list of elements within the Lanthanides family: </p>
+            <ul>
+              <li>Promethium</li>
+              <li>Samarium</li>
+              <li>European</li>
+              <li>Gadolium</li>
+              <li>Terbium</li>
+              <li>Dysporium</li>
+              <li>Holium</li>
+              <li>Erbium</li>
+              <li>Thulium</li>
+              <li>Ytterbium</li>
+              <li>Lutetium</li>
+            </ul>
+          </div>
+        </div>
+        <div class = "Family_Elements_Questions" id = "family_elements_questions">
+          <form>
+            <p>What element is used to make powerful magnets?</p>
+            <textarea wrap="off" placeholder="Type Here" name="FE_Q1"></textarea>
+            <p>Promethium has an atomic number of 61.</p>
+            <input type="radio" name="FE_Q2" value="True" checked><span id="FE_Q2_Correct" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;
+            margin-bottom: 10px;">True</span><br>
+            <input type="radio" name="FE_Q2" value="False"><span id="FE_Q2_Wrong" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;">False</span><br>
+            <p>What element has an atomic number of 65?</p>
+            <textarea wrap="off" placeholder="Type Here" name="FE_Q3"></textarea>
+            <p>Select all the properites of Ytterbium.</p>
+            <input type="checkbox" name="FE_Q4" value="Reactive"><span class = "Test" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;">Has an atomic number
+              of 70.
+            </span><br>
+            <input type="checkbox" name="FE_Q4" value="Salt"><span class = "Test" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;">Silvery and lustrous.
+            </span><br>
+            <input type="checkbox" name="FE_Q4" value="Oil"><span class = "Test" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;">Combined with steel.
+            </span><br>
+            <p>This element has an atomic number of 71.</p>
+            <textarea wrap="off" placeholder="Type Here" name="FE_Q5"></textarea>
+            <div id = "Submit_2">
+              <a href="#">Check Answers</a>
+            </div>
+          </form>
+          <script type="text/javascript">
+          $(document).ready(function() {
+            $("#Submit_2").click(function() {
+                checkText("FE_Q1", "Neodymium");
+                checkanswerRadio(["FE_Q2", "FE_Q2"], [0, 1], 0, ["FE_Q2_Correct", "FE_Q2_Wrong"]);
+                checkText("FE_Q3", "Terbium");
+                checkanswerCheckbox("FE_Q4", ["Reactive", "Salt", "Oil"]);
+                checkText("FE_Q5", "Lutetium");
+            })
+          })
+          </script>
+        </div>
+       <div class = "Congrats" id = "Congrats_Message">
+         <h1>Congratulations!</h1>
+         <p>You've passed this every course with flying marks! Time to see if you're a chemistry expert!</p>
+         <a href="test.html">Take the Test</a>
+       </div>
+       <div id = "Next">
+         <a href="#">Next</a>
+       </div>
+    </div>
+    <script type="text/javascript" src="Scripts/alkali_earth_slide_script.js"></script>
+    <div class = "Copyright_Info">
+      <p>Creators: A, N, S, Z.(Initials)</p>
+      <p>Please do not copy, rights belong to the owners(s).</p>
+      <p>Copyright 2015.</p>
+    </div>
+  </body>
+</html>

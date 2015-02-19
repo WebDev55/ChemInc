@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="CSS/Test_Stylesheet.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="Scripts/Learn_Questions_Script.js"></script>
+    <title>Chemistry Test</title>
+  </head>
+  <body>
+    <div class = "Nav_Bar">
+      <a href="index.html"><h3>Home</h3></a>
+      <a href="learn.html"><h3>Learn</h3></a>
+      <a href="test.html"><h3>Test</h3></a>
+      <a href="about.html"><h3>About</h3></a>
+    </div>
+    <div class = "Jumbotron">
+      <h1>The Official Chemistry, Inc. Test</h1>
+      <p id="Info">Answer the questions below to the best of your ability, and once you are finished, click the Check answers button.
+        If you don't know something, try going to the <a href="learn.html" style="text-decoration: none;
+        color: #41A4EA;">learn</a> page. Good luck!</p>
+      <div class = "Questions">
+        <p>How many elements does the Halogens family have?</p><br>
+        <textarea wrap="off" placeholder="Type Here" name="Q1"></textarea>
+        <p>What is the only radioactive element in the Transition Metals Family?</p><br>
+        <textarea wrap="off" placeholder="Type Here" name="Q2"></textarea>
+        <p>There are two common elements found in stars. Which one is completely stable?</p><br>
+        <textarea wrap="off" placeholder="Type Here" name="Q3"></textarea>
+        <p>Which Alkaline Earth metal plays an important role in your body?</p><br>
+        <textarea wrap="off" placeholder="Type Here" name="Q4"></textarea>
+        <p>This Lanthanide is well-known for its use in super-powerful magnets.</p>
+        <textarea wrap="off" placeholder="Type Here" name="Q5"></textarea>
+        <p>Mercury is a liquid.</p>
+        <input type="radio" name="Q6" value="True" checked><span id="Q6_Correct" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;
+        margin-bottom: 10px;">True</span><br>
+        <input type="radio" name="Q6" value="False"><span id="Q6_Wrong" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;">False</span><br>
+        <p>The Metalloids are used in solid-state electronics.</p>
+        <input type="radio" name="Q7" value="True" checked><span id="Q7_Correct" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;
+        margin-bottom: 10px;">True</span><br>
+        <input type="radio" name="Q7" value="False"><span id="Q7_Wrong" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;">False</span><br>
+        <p>Argon is found in solar cells.</p>
+        <input type="radio" name="Q8" value="True" checked><span id="Q8_Wrong" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;
+        margin-bottom: 10px;">True</span><br>
+        <input type="radio" name="Q8" value="False"><span id="Q8_Correct" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;">False</span><br>
+        <p>Copper is a better conductor of electricity than gold.</p>
+        <input type="radio" name="Q9" value="True" checked><span id="Q9_Wrong" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;
+        margin-bottom: 10px;">True</span><br>
+        <input type="radio" name="Q9" value="False"><span id="Q9_Correct" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;">False</span><br>
+        <p>Krypton is a Noble Gas because it is missing an electron from its outer shell.</p>
+        <input type="radio" name="Q10" value="True" checked><span id="Q10_Wrong" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;
+        margin-bottom: 10px;">True</span><br>
+        <input type="radio" name="Q10" value="False"><span id="Q10_Correct" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;">False</span><br>
+        <p>Select all the properties of the Other Metals.</p>
+        <input type="checkbox" name="Q11" value="Beryllium"><span class = "Test" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;" id="Q11">Oxidation numbers of +3.
+        </span><br>
+        <input type="checkbox" name="Q11" value="Magnesium"><span class = "Test" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;" id="Q11">Reasonably good
+          conductors of electricity.
+        </span><br>
+        <input type="checkbox" name="Q11" value="Calcium"><span class = "Test" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;"  id="Q11">Have a relatively high density.</span><br>
+        <input type="checkbox" name="Q11" value="Strontium"><span class = "Test" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;"  id="Q11">Not radioactive.</span><br>
+        <p>Select all the properties of Selenium.</p>
+        <input type="checkbox" name="Q12" value="Beryllium"><span class = "Test" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;" id="Q12">Atomic number of 34.</span><br>
+        <input type="checkbox" name="Q12" value="Magnesium"><span class = "Test" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;" id="Q12">Rarely occurs in its pure forms.
+        </span><br>
+        <input type="checkbox" name="Q12" value="Calcium"><span class = "Test" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;" id="Q12">Found in impure <i>allotropes</i>.</span><br>
+        <input type="checkbox" name="Q12" value="Strontium"><span class = "Test" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;" id="Q12">Is part of the Nonmetals.</span><br>
+        <p>Select all the properties of the Alkali Metals.</p>
+        <input type="checkbox" name="Q13" value="Magnesium"><span class = "Test" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;" id="Q12">Contains 6 elements.
+        </span><br>
+        <input type="checkbox" name="Q13" value="Calcium"><span class = "Test" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;" id="Q12">Have a +1 oxidation number.</span><br>
+        <input type="checkbox" name="Q13" value="Strontium"><span class = "Test" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;" id="Q12">Extremely reactive to water.</span><br>
+        <div id = "Submit">
+          <a href="#">Check Answers</a>
+        </div>
+        <script type="text/javascript">
+        $(document).ready(function() {
+          $("#Submit").click(function() {
+              checkText("Q1", "6");
+              checkText("Q2", "Technetium");
+              checkText("Q3", "Helium");
+              checkText("Q4", "Calcium");
+              checkText("Q5", "Neodymium");
+              checkanswerRadio(["Q6", "Q6"], [0, 1], 0, ["Q6_Correct", "Q6_Wrong"]);
+              checkanswerRadio(["Q7", "Q7"], [0, 1], 0, ["Q7_Correct", "Q7_Wrong"]);
+              checkanswerRadio(["Q8", "Q8"], [0, 1], 1, ["Q8_Correct", "Q8_Wrong"]);
+              checkanswerRadio(["Q9", "Q9"], [0, 1], 1, ["Q9_Correct", "Q9_Wrong"]);
+              checkanswerRadio(["Q10", "Q10"], [0, 1], 1, ["Q10_Correct", "Q10_Wrong"]);
+              checkanswerCheckbox(["Q11", 4], [0, 1, 2, 3]);
+              checkanswerCheckbox(["Q12", 4], [0, 1, 2, 3]);
+              checkanswerCheckbox(["Q13", 3], [0, 1, 2]);
+          })
+        })
+        </script>
+      </div>
+    </div>
+  </body>
+</html>

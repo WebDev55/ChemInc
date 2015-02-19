@@ -1,0 +1,304 @@
+body {
+  background-color: #e7e7e7;
+  max-width: 100%;
+  max-height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.Nav_Bar {
+    background-color: #161616;
+    border-color: black;
+    border-top-width: thick;
+    border-left-width: thick;
+    border-right-width: thick;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-position: top-center;
+}
+
+.Nav_Bar a {
+  display: inline-block;
+  padding-left: 175px;
+  padding-right: 100px;
+  color: white;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+.Nav_Bar a:hover {
+  color: #41A4EA;
+}
+
+.Jumbotron div {
+  position: relative;
+}
+
+.Jumbotron h1 {
+  position: relative;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.Jumbotron p {
+  position: relative;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.Jumbotron ul {
+  position: relative;
+  list-style-type: none;
+}
+
+.Jumbotron li {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 12.37pt;
+}
+
+.Jumbotron li:hover {
+  list-style-type: square;
+  font-weight: bold;
+  color: #41A4EA;
+}
+
+.Jumbotron textarea {
+  position: relative;
+  height: 25px;
+  width: 300px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  resize: none;
+  overflow: hidden;
+  border: 2px solid black;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Jumbotron textarea:focus {
+  border: 2px solid #0056e2;
+}
+
+.Jumbotron .Family_Properties_Info {
+  position: inherit;
+  top: 50px;
+  left: 27px;
+}
+
+.Jumbotron .Family_Properties_Info h1:first-child {
+  position: relative;
+  top: 55px;
+  left: 375px;
+}
+
+.Jumbotron .Family_Properties_Info video {
+  position: relative;
+  top: 50px;
+  left: 313px;
+}
+
+.Jumbotron .Family_Properties_Info h1:nth-child(3) {
+  position: relative;
+  top: 50px;
+  left: 440px;
+}
+
+.Jumbotron .Family_Properties_Info p {
+  position: relative;
+  top: 45px;
+  left: 345px;
+}
+
+.Jumbotron .Family_Properties_Info ul {
+  position: relative;
+  top: 35px;
+  left: 225px;
+}
+
+.Jumbotron .Family_Properties_Questions {
+  position: relative;
+  top: 60px;
+}
+
+.Jumbotron .Family_Properties_Questions #Submit {
+  display: inline-block;
+  position: relative;
+  right: 310px;
+  top: 60px;
+  background-color: #161616;
+  width: 250px;
+  height: 45px;
+  border-radius: 5%;
+}
+
+.Jumbotron .Family_Properties_Questions #Submit:hover {
+  background-color:  #41A4EA;
+}
+
+.Jumbotron .Family_Properties_Questions #Submit a {
+  position: inherit;
+  left: 70px;
+  top: 10px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+.Jumbotron .Family_Elements_Info {
+  position: relative;
+  top: 50px;
+}
+
+.Jumbotron .Family_Elements_Info #Elements_Info_Video h1 {
+  position: relative;
+  left: 250px;
+}
+
+.Jumbotron .Family_Elements_Info #Elements_Info_Video video {
+  position: inherit;
+  left: 325px;
+}
+
+.Jumbotron .Family_Elements_Info #Elements_Info_Text {
+  position: relative;
+  left: 450px;
+}
+
+.Jumbotron .Family_Elements_Info #Elements_Info_Text h1 {
+  position: relative;
+  left: 75px;
+  bottom: 10px;
+}
+
+.Jumbotron .Family_Elements_Info #Elements_Info_Text p {
+  position: relative;
+  right: 115px;
+  bottom: 25px;
+}
+
+.Jumbotron .Family_Elements_Info #Elements_Info_Text ul {
+  position: inherit;
+  right: 200px;
+  bottom: 25px;
+}
+
+.Jumbotron .Family_Elements_Questions {
+  position: relative;
+  top: 60px;
+}
+
+.Jumbotron .Family_Elements_Questions #Submit_2 {
+  display: inline-block;
+  position: relative;
+  right: 310px;
+  top: 60px;
+  background-color: #161616;
+  width: 250px;
+  height: 45px;
+  border-radius: 5%;
+}
+
+.Jumbotron .Family_Elements_Questions #Submit_2:hover{
+  background-color:  #41A4EA;
+}
+
+.Jumbotron .Family_Elements_Questions #Submit_2 a {
+  position: inherit;
+  left: 70px;
+  top: 10px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+.Jumbotron #Next {
+  display: inline-block;
+  position: absolute;
+  bottom: 300px;
+  left: 1250px;
+  width: 75px;
+  height: 75px;
+  background-color:  #41A4EA;
+  border-radius: 50%;
+}
+
+.Jumbotron #Next:hover {
+  background-color:  #161616;
+}
+
+.Jumbotron #Next a {
+  position: inherit;
+  top: 27px;
+  left: 20px;
+  color: white;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+.Jumbotron .Congrats {
+  position: relative;
+  top: 100px;
+}
+
+.Jumbotron .Congrats h1 {
+  left: 525px;
+}
+
+.Jumbotron .Congrats p {
+  left: 350px;
+  top: 5px;
+}
+
+.Jumbotron .Congrats a {
+  position: relative;
+  left: 525px;
+  top: 25px;
+  background-color: #41A4EA;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 5%;
+  color: black;
+  text-decoration: none;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.Jumbotron .Congrats a:hover {
+  background-color: #161616;
+  color: #41A4EA;
+}
+
+.Copyright_Info {
+  background-color: #161616;
+  display: inline-block;
+  position: absolute;
+  border-top-width: thick;
+  border-bottom-width: thick;
+  left: 0px;
+  right: 0px;
+  top: 800px;
+}
+
+.Copyright_Info p {
+  color: white;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 9pt;
+}
+
+.Copyright_Info p:nth-child(1) {
+  position: relative;
+  left: 600px;
+}
+
+.Copyright_Info p:nth-child(2) {
+  position: relative;
+  left: 525px;
+}
+
+.Copyright_Info p:nth-child(3) {
+  position: relative;
+  left: 615px;
+}

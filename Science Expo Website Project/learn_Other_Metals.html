@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="CSS/Learn_Other_Metals_Stylesheet.css"/>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="Scripts/Learn_Questions_Script.js"></script>
+    <title>Learn: Alkali Earth</title>
+  </head>
+  <body>
+    <div class = "Nav_Bar">
+      <a href="index.html"><h3>Home</h3></a>
+      <a href="learn.html"><h3>Learn</h3></a>
+      <a href="test.html"><h3>Test</h3></a>
+      <a href="about.html"><h3>About</h3></a>
+    </div>
+    <div class = "Jumbotron">
+          <div class = "Family_Properties_Info" id = "family_properties_info">
+            <h1>Watch a video on the Other Metals family.</h1>
+            <video src="Presentation/final_render_2.mp4" controls type="video/mp4" height="400" width="720"></video>
+            <h1>Other Metals: Family Properities</h1>
+            <p>All elements within this family share several properies. Here are the most common: </p>
+            <ul>
+              <li>The Other Metals family contains 7 elements.</li>
+              <li>These elements have oxidation numbers of +3.</li>
+              <li>This family contains relatively good conductors of electricity.</li>
+              <li>This entire family has a reasonably high desnity.</li>
+              <li>None of the family is radioactive.</li>
+            </ul>
+          </div>
+          <div class = "Family_Properties_Questions" id = "family_properties_questions">
+            <form>
+              <p>How many elements are in this family?</p>
+              <textarea wrap="off" placeholder="Type Here" name="FP_Q1"></textarea>
+              <p>These elements react violently with any family.</p>
+              <input type="radio" name="FP_Q2" value="True" checked><span id="FP_Q2_Wrong" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;
+              margin-bottom: 10px;">True</span><br>
+              <input type="radio" name="FP_Q2" value="False"><span id="FP_Q2_Correct" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;">False</span><br>
+              <p>What oxidation number do these elements have?</p>
+              <textarea wrap="off" placeholder="Type Here" name="FP_Q3"></textarea>
+              <p>Select all the elements in this family.</p>
+              <input type="checkbox" name="FP_Q4" value="Aluminium"><span class = "Test" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;">Aluminium</span><br>
+              <input type="checkbox" name="FP_Q4" value="Gallium"><span class = "Test" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;">Gallium
+              </span><br>
+              <input type="checkbox" name="FP_Q4" value="Indium"><span class = "Test" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;">Indium</span><br>
+              <input type="checkbox" name="FP_Q4" value="Tin"><span class = "Test" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;">Tin</span><br>
+              <input type="checkbox" name="FP_Q4" value="Thallium"><span class = "Test" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;">Thallium</span><br>
+              <input type="checkbox" name="FP_Q4" value="Lead"><span class = "Test" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;">Lead</span><br>
+              <input type="checkbox" name="FP_Q4" value="Bismuth"><span class = "Test" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;">Bismuth</span><br>
+              <p>What are these elements used in?</p>
+              <textarea wrap="off" placeholder="Type Here" name="FP_Q5"></textarea>
+              <div id = "Submit">
+                <a href="#">Check Answers</a>
+              </div>
+            <script type="text/javascript">
+                $(document).ready(function() {
+                  $("#Submit").click(function() {
+                      checkText("FP_Q1", "5");
+                      checkanswerRadio(["FP_Q2", "FP_Q2"], [0, 1], 1, ["FP_Q2_Correct", "FP_Q2_Wrong"]);
+                      checkText("FP_Q3", "-1");
+                      checkanswerCheckbox("FP_Q4", ["Aluminium", "Gallium", "Indium", "Tin", "Thallium", "Lead", "Bismuth"]);
+                      checkText("FP_Q5", "Common materials");
+                  })
+                })
+              </script>
+          </div>
+        <div class = "Family_Elements_Info" id = "family_elements_info">
+          <div id = "Elements_Info_Video">
+            <h1>Watch a video on the elements in the Other Metals family.</h1>
+            <video src="#" controls type="video/mp4" height="360" width="720"></video>
+          </div>
+          <div id = "Elements_Info_Text">
+            <h1>Element Summary</h1>
+            <p>Here is a list of elements within the Other Metals family: </p>
+            <ul>
+              <li>Aluminium</li>
+              <li>Gallium</li>
+              <li>Indium</li>
+              <li>Indium</li>
+              <li>Thallium</li>
+              <li>Lead</li>
+              <li>Bismuth</li>
+            </ul>
+          </div>
+        </div>
+        <div class = "Family_Elements_Questions" id = "family_elements_questions">
+          <form>
+            <p>What element is commonly used to form coupounds?</p>
+            <textarea wrap="off" placeholder="Type Here" name="FE_Q1"></textarea>
+            <p>Bromine has an atomic number of 36.</p>
+            <input type="radio" name="FE_Q2" value="True" checked><span id="FE_Q2_Wrong" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;
+            margin-bottom: 10px;">True</span><br>
+            <input type="radio" name="FE_Q2" value="False"><span id="FE_Q2_Correct" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;">False</span><br>
+            <p>What element, in small quantities, is found in smoke detectors?</p>
+            <textarea wrap="off" placeholder="Type Here" name="FE_Q3"></textarea>
+            <p>Select all the properites of Gallium.</p>
+            <input type="checkbox" name="FE_Q4" value="Reactive"><span class = "Test" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;">Melts at room
+              temperature.
+            </span><br>
+            <input type="checkbox" name="FE_Q4" value="Salt"><span class = "Test" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;">Can cause scarring.
+            </span><br>
+            <input type="checkbox" name="FE_Q4" value="Oil"><span class = "Test" style="font-family: 'Trebuchet MS', Helvetica, sans-serif;">Has a boiling point of
+              about 2500 kelvins.
+            </span><br>
+            <p>This element was used by the Romans.</p>
+            <textarea wrap="off" placeholder="Type Here" name="FE_Q5"></textarea>
+            <div id = "Submit_2">
+              <a href="#">Check Answers</a>
+            </div>
+          </form>
+          <script type="text/javascript">
+          $(document).ready(function() {
+            $("#Submit_2").click(function() {
+                checkText("FE_Q1", "Aluminium");
+                checkanswerRadio(["FE_Q2", "FE_Q2"], [0, 1], 1, ["FE_Q2_Correct", "FE_Q2_Wrong"]);
+                checkText("FE_Q3", "Bismuth");
+                checkanswerCheckbox("FE_Q4", ["Reactive", "Salt"]);
+                checkText("FE_Q5", "Lead");
+            })
+          })
+          </script>
+        </div>
+       <div class = "Congrats" id = "Congrats_Message">
+         <h1>Congratulations!</h1>
+         <p>You've passed this course with flying marks. Time to move onto the Transition Metals!</p>
+         <a href="learn_Transition_Metals.html">Move Onto Transition Metals</a>
+       </div>
+       <div id = "Next">
+         <a href="#">Next</a>
+       </div>
+    </div>
+    <script type="text/javascript" src="Scripts/alkali_earth_slide_script.js"></script>
+    <div class = "Copyright_Info">
+      <p>Creators: A, N, S, Z.(Initials)</p>
+      <p>Please do not copy, rights belong to the owners(s).</p>
+      <p>Copyright 2015.</p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,271 @@
+body {
+  background-color: #e7e7e7;
+  max-width: 100%;
+  max-height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.Nav_Bar {
+    background-color: #161616;
+    border-color: black;
+    border-top-width: thick;
+    border-left-width: thick;
+    border-right-width: thick;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-position: top-center;
+}
+
+.Nav_Bar a {
+  display: inline-block;
+  padding-left: 175px;
+  padding-right: 100px;
+  color: white;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+.Nav_Bar a:hover {
+  color: #41A4EA;
+}
+
+/* Third, style the Main Content(the .Jumbotron class) */
+.Jumbotron {
+  position: absolute;
+  top: 59px;
+  left: 0px;
+  right: 0px;
+  min-height: 345px;
+  max-height: 345px;
+  background-image: url("http://cdn.desktopwallpaper4.me/wallpapers/digital-art/2880x1800/1/1290-angular-pattern-2880x1800-digital-art-wallpaper.jpg");
+  background-position: top-center;
+  padding-bottom: 50px;
+}
+
+.Jumbotron h1{
+  position: relative;
+  bottom: 400px;
+  left: 575px;
+  color: white;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.Jumbotron p {
+  position: relative;
+  bottom: 400px;
+  left: 570px;
+  color: white;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 13pt;
+}
+
+.Jumbotron a {
+  position: relative;
+  left: 800px;
+  bottom: 375px;
+  background-color: #41A4EA;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 15%;
+  color: black;
+  text-decoration: none;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 23pt;
+}
+
+.Jumbotron a:hover {
+  background-color: #161616;
+  color: #41A4EA;
+}
+
+.Jumbotron video {
+  position: relative;
+  top: 5px;
+  border-right: thin solid grey;
+}
+/* Then start styling the Supporting Content(the .Supporting_Content class and subclasses.) */
+.Supporting_Content h2 {
+  color: black;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 22pt;
+}
+
+.Supporting_Content p {
+  color: black; /* Ask graphics design for better background img or ask for better text color. */
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.Supporting_Content .Supporting_Content_1 {
+  position: absolute;
+  top: 925px;
+  left: 0px;
+}
+
+.Supporting_Content .Supporting_Content_1 img {
+  position: relative;
+  bottom: 246px;
+}
+.Supporting_Content .Supporting_Content_1 h2 {
+  position: relative;
+  left: 520px;
+  bottom: 490px;
+}
+
+.Supporting_Content .Supporting_Content_1 #Position_1 {
+  position: relative;
+  left: 240px;
+  bottom: 500px;
+}
+
+.Supporting_Content .Supporting_Content_1 #shift-right_1 {
+  position: relative;
+  left: 415px;
+  bottom: 500px;
+}
+
+.Supporting_Content .Supporting_Content_1 a {
+  position: relative;
+  left: 600px;
+  bottom: 465px;
+  background-color: #161616;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 13%;
+  color: #41A4EA;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18pt;
+}
+
+.Supporting_Content .Supporting_Content_1 a:hover {
+  background-color: #41A4EA;
+  color: black;
+}
+
+.Supporting_Content .Supporting_Content_2 {
+  position: absolute;
+  top: 890px;
+}
+
+.Supporting_Content .Supporting_Content_2 img {
+  position: relative;
+  left: -8px;
+}
+
+.Supporting_Content .Supporting_Content_2 h2 {
+  position: relative;
+  left: 540px;
+  bottom: 225px;
+}
+
+.Supporting_Content .Supporting_Content_2 p {
+  position: relative;
+  bottom: 225px;
+  left: 225px;
+}
+
+.Supporting_Content .Supporting_Content_2 a {
+  position: relative;
+  left: 575px;
+  bottom: 185px;
+  background-color: #161616;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 13%;
+  color: #41A4EA;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18pt;
+}
+
+.Supporting_Content .Supporting_Content_2 a:hover {
+  background-color: #41A4EA;
+  color: black;
+}
+
+.Supporting_Content .Supporting_Content_3 {
+  position: absolute;
+  top: 884px;
+}
+
+.Supporting_Content .Supporting_Content_3 img {
+  position: absolute;
+  left: -8px;
+}
+.Supporting_Content .Supporting_Content_3 h2 {
+  position: relative;
+  left: 525px;
+}
+
+.Supporting_Content .Supporting_Content_3 p {
+  position: relative;
+  left: 300px;
+}
+
+.Supporting_Content .Supporting_Content_3 a {
+  position: relative;
+  left: 580px;
+  top: 45px;
+  background-color: #161616;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 13%;
+  color: #41A4EA;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18pt;
+}
+
+.Supporting_Content .Supporting_Content_3 a:hover {
+  background-color: #41A4EA;
+  color: black;
+}
+
+/* Finally, style the Legal Info(the .Copyright_Info class) */
+.Copyright_Info {
+  background-color: #161616;
+  display: inline-block;
+  position: absolute;
+  border-top-width: thick;
+  border-bottom-width: thick;
+  left: 0px;
+  right: 0px;
+  top: 1110px;
+}
+
+.Copyright_Info p {
+  color: white;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 9pt;
+}
+
+.Copyright_Info p:nth-child(1) {
+  position: relative;
+  left: 600px;
+}
+
+.Copyright_Info p:nth-child(2) {
+  position: relative;
+  left: 525px;
+}
+
+.Copyright_Info p:nth-child(3) {
+  position: relative;
+  left: 615px;
+}
